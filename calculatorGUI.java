@@ -6,5 +6,10 @@ public class calculatorGUI {
         // Add a label to the frame
         JLabel label = new JLabel("Hello, Swing!");
         frame.add(label);
+
+        JButton button = new JButton("Click Me");
+        JButton clearButton = new JButton("Clear");
+        frame.add(button);
+        frame.add(clearButton);
     }
 }
