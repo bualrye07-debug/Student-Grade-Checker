@@ -9,13 +9,13 @@ public class calculatorGUI {
         frame.setLayout(new FlowLayout(FlowLayout.LEFT, 20, 10));
         
         JLabel lblnum1 = new JLabel("1st number: ");
-        lblnum1.setBounds(0,30,80,25);
+        lblnum1.setBounds(20, 30, 100, 25);
         JTextField txtnum1 = new JTextField(5);
-        txtnum1.setBounds(0, 0, 0, 0);
+        txtnum1.setBounds(130, 30, 100, 25);
         JLabel lblnum2 = new JLabel("2nd number: ");
-        lblnum1.setBounds(0,30,80,25);
+        lblnum1.setBounds(20, 70, 100, 25);
         JTextField txtnum2 = new JTextField(5);
-        txtnum1.setBounds(0, 0, 0, 0);
+        txtnum1.setBounds(130, 70, 100, 25);
         frame.add(lblnum1);
         frame.add(lblnum1);
 
