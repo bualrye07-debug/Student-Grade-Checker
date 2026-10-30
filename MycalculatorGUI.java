@@ -1,6 +1,6 @@
 import javax.swing.*;
 
-public class calculatorsGUI {
+public class MycalculatorGUI {
     public static void main(String[] args) {
         // Create a new JFrame with a title
         JFrame frame = new JFrame("My First JFrame");
