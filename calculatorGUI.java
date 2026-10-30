@@ -16,8 +16,10 @@ public class calculatorGUI {
         lblnum1.setBounds(20, 70, 100, 25);
         JTextField txtnum2 = new JTextField(5);
         txtnum1.setBounds(130, 70, 100, 25);
+        frame.add(txtnum1);
+        frame.add(txtnum2);
         frame.add(lblnum1);
-        frame.add(lblnum1);
+        frame.add(lblnum2);
 
         JButton button = new JButton("Click Me");
         JButton clearButton = new JButton("Clear");
