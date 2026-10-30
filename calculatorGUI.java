@@ -33,7 +33,7 @@ public class calculatorGUI {
         frame.setSize(300, 200);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLocationRelativeTo(null);
-        frame.setVisible(true)
+        frame.setVisible(true);
 
 
 
