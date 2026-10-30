@@ -1,4 +1,5 @@
 import javax.swing.*;
+import javax.swing.*;
 public class calculatorGUI {
    public static void main(String[] args) {
        // Create a new JFrame with a title
@@ -13,5 +14,11 @@ public class calculatorGUI {
        frame.setLocationRelativeTo(null);
        // Make the frame visible
        frame.setVisible(true);
+
+       JButton button = new JButton("Click Me");
+       frame.add(button);
+
+
+    
    }
 }
