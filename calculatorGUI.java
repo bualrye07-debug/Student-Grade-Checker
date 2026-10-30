@@ -8,8 +8,16 @@ public class calculatorGUI {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(new FlowLayout(FlowLayout.LEFT, 20, 10));
         
-        JLabel label = new JLabel("Hello, Swing!");
-        frame.add(label);
+        JLabel lblnum1 = new JLabel("1st number: ");
+        lblnum1.setBounds(0,30,80,25);
+        JTextField txtnum1 = new JTextField(5);
+        txtnum1.setBounds(0, 0, 0, 0);
+        JLabel lblnum2 = new JLabel("2nd number: ");
+        lblnum1.setBounds(0,30,80,25);
+        JTextField txtnum2 = new JTextField(5);
+        txtnum1.setBounds(0, 0, 0, 0);
+        frame.add(lblnum1);
+        frame.add(lblnum1);
 
         JButton button = new JButton("Click Me");
         JButton clearButton = new JButton("Clear");
